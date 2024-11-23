@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/446311fb76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>hotel</title>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1 style="font-size: 45px; margin-bottom: 10px;">welcome to space hotel</h1>
+            <p style="font-size: 25px; margin: 10px;">Come and explore the new space hotel and experience the space research center of india</p>
+            <button class="book-button">Register now</button>
+        </div>
+    </section>
+    <h1 class="about-heading"><u>About Us</u></h1>
+    <section class="about-section">
+        <div class="about-us">
+            <p>Welcome to Space Hotel, the ultimate destination for an extraordinary stay beyond the stars. Our hotel offers a luxurious and unique experience, combining cutting-edge technology with the wonders of space exploration. Nestled in the serene environment of low-Earth orbit, Space Hotel provides breathtaking views of our planet, zero-gravity recreational activities, and state-of-the-art suites designed for both comfort and adventure. Whether you're seeking a once-in-a-lifetime vacation or a space-inspired retreat, our world-class service and unparalleled amenities will make your stay truly unforgettable. At Space Hotel, the universe is your playground!</p>
+            <br>
+            <p style="margin-bottom: 10px;">Booking your adventure to Space Hotel is simple and seamless! To reserve your ticket, visit our official website and head to the **Ticket Registration** page. Select your preferred travel dates and package, then complete the registration form with your details. Once submitted, our team will review your application and confirm availability. Upon approval, you'll receive a personalized itinerary, including pre-flight training and an exclusive tour of our launch facilities. We offer flexible payment plans and provide all the necessary information to ensure you're prepared for your journey. Get ready to embark on the adventure of a lifetime—your ticket to the stars awaits!</p>
+            <button class="know-button">Know more...</button>
+        </div>
+        <div class="amenities">
+            <h3>Amenities we have : </h3>
+            <ul>
+                <li><i class="fa-solid fa-planet-ringed"></i>Zero-Gravity Experience</li>
+                <li><i class="fa-solid fa-wifi"></i>high speed internet</li>
+                <li>Panoramic Space Views</li>
+                <li><i class="fa-solid fa-dumbbell"></i>Space Gym </li>
+                <li>Gourmet Space Cuisine</li>
+                <li>Virtual Reality Space Adventures </li>
+            </ul>
+        </div>
+    </section>
+    <h2 class="room-heading">Room types</h2>
+    <section class="room-type-container">
+        <div class="room-images">
+            <img src="room.jpg" alt="room-image">
+       </div>
+        <div class="room-list">
+            <h4>single occupancy room</h4>
+            <p> A room assigned to one person. May have one or more beds.
+
+                The room size or area of Single Rooms is generally between 37 m² to 45 m².
+                
+                 </p>
+            <h4>family room</h4>
+            <p>A room assigned to four people. May have two or more beds.
+
+                The room size or area of Quad Rooms is generally between 70 m² to 85 m².
+                
+                </p>
+            <h4>duplex room</h4>
+            <p>This type of room is always adjoining to the swimming pool or has a private pool attached to the room.
+
+                The room size or area of Cabana Room Types is generally between 30 m² to 45 m².
+                
+                </p>
+        </div>
+    </section>
+    <div class="help-button">
+        <h4>need help?</h4>
+    </div>
+    <h2 class="form-heading" style="margin-bottom: 10px;">Fill the form for booking the space Rooms</h2>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">your full name</label> <br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group" >
+                <label for="email">your email Id</label> <br>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="booking date">date</label> <br>
+                <input type="date" id="date" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type">select room type</label> <br>
+                <select name="room-type" id="room-type" required>
+                    <option value="" selected disabled>select...</option>
+                    <option value="single room">single room</option>
+                    <option value="family room">family room</option>
+                    <option value="duplex room">duplex room</option>
+                </select>
+            </div>
+            <input type="submit" value="book" style="margin-top: 5px; justify-content: center;">
+        </form>
+    </section>
+</body>
+</html>

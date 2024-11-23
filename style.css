@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.hero-section{
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+}
+.hero-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.book-button{
+    background-color: skyblue;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.know-button{
+    background-color: skyblue;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.hero-section{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-heading,
+.know-button-container,
+.room-heading {
+    text-align: center;
+}
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-us{
+    width: 50%;
+}
+.room-images{
+    background-image: url(room.jpg);
+    background-size: cover;
+    height: 500px 300px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.room-type-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+.room-images img{
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+}
+.help-button{
+    background-color: cadetblue;
+    width: fit-content;
+    float: right;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.help-button:hover{
+    background-color: black;
+    color: azure;
+    border-image-slice: 5px;
+    cursor: pointer;
+}
+form{
+    border: 2px solid grey;
+    width: max-content;
+    padding: 30px;
+    border-radius: 10px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+input,
+select{
+    padding: 5px;
+    font-size: 15px;
+}
+label{
+    font-size: 20px;
+}
+.form-heading{
+    display: flex;
+    justify-content: center;
+}
